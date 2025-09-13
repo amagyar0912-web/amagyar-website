@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ákos Magyar — Mathematics</title>
+  <meta name="description" content="Personal academic webpage of Ákos Magyar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <h1>Ákos Magyar</h1>
+      <p class="subtitle">Professor of Mathematics</p>
+      <p class="affiliation">University of Georgia</p>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#papers">Papers</a>
+      <a href="#notes">Notes</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am a mathematician working in analytic number theory, discrete harmonic analysis, and ergodic theory.
+      This is a simple, fast site with links to selected work and materials.
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Diophantine equations and prime variables</li>
+      <li>Discrete harmonic analysis and maximal operators</li>
+      <li>Polynomial ergodic averages and nilpotent methods</li>
+    </ul>
+  </section>
+
+  <section id="papers">
+    <h2>Selected Papers</h2>
+    <p>Place your PDFs in the <code>/files</code> folder and update the links below.</p>
+    <ul class="doc-list">
+      <li>
+        <span class="title">Discrete Spherical Maximal Operator</span>
+        <span class="meta">Annals of Mathematics</span>
+        <a class="btn" href="files/magyar_discrete_spherical_maximal.pdf">PDF</a>
+      </li>
+      <li>
+        <span class="title">Diophantine Equations in the Primes</span>
+        <span class="meta">Inventiones Mathematicae</span>
+        <a class="btn" href="files/magyar_diophantine_primes.pdf">PDF</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="notes">
+    <h2>Lecture Notes & Preprints</h2>
+    <ul class="doc-list">
+      <li>
+        <span class="title">Notes on Birch–Schmidt Rank</span>
+        <a class="btn" href="files/notes_birch_schmidt.pdf">PDF</a>
+      </li>
+      <li>
+        <span class="title">Nilpotent Circle Method (draft)</span>
+        <a class="btn" href="files/nilpotent_circle_method_draft.pdf">PDF</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <ul>
+      <li><a href="files/syllabus_topics_analytic_number_theory.pdf">Topics in Analytic Number Theory — Syllabus (PDF)</a></li>
+      <li><a href="files/homework_set_1.pdf">Homework Set 1 (PDF)</a></li>
+    </ul>
+  </section>
+
+  <section id="cv">
+    <h2>Curriculum Vitae</h2>
+    <p><a class="btn" href="files/akos_magyar_cv.pdf">Download CV (PDF)</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Email: <a href="mailto:you@example.com">you@example.com</a>
+    </p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Ákos Magyar</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
